@@ -10,7 +10,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #1B201E;
+  background-image: url('Background&Images/Background (1).png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
