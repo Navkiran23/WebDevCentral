@@ -1,1 +1,29 @@
-
+<!-- This file holds the HTML components for the DubSpot Webpage -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+<!--The head is the header of the website-->
+<head>
+    <title>LandingPage</title>
+    <!--Link the Html with its stylesheet-->
+    <link rel="stylesheet" href = "ColorPalette.css">
+</head>
+<!--The Body of this page will contain what DubSpot is along with
+    Information on where to click to navigate through the website-->
+<body>
+<div class="LogoImage">
+    <img src="Background&Images/Web DEV CEntral (1).png">
+    <h1>By pressing the button below you will be able to refresh the palette
+    do this until you get colors of your choosing!</h1>
+    <button class="ResetButton" onClick="window.location.reload();">Refresh Palette</button>
+</div>
+<div class="ColorContainer">
+    <div class="RColor">
+    </div>
+</div>
+<div class="ButtonFormatting">
+    <button class="LinkButton" onClick="window.location.href='FontDisplay.html';">Find your Font</button>
+    <button class="LinkButton" onClick="window.location.href='GetStarted.html';;">Getting started with making a webpage</button>
+</div>
+<script src="ColorPalette.js"></script>
+</body>

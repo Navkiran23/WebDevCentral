@@ -1,1 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Avantgarde;
+}
 
+body {
+  display: flex;
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1B201E;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.LogoImage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;;
+}
+.LogoImage img {
+    height: 300px;
+}
+nav {
+    display: flex;
+    position: fixed;
+    top: 520px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+a:link {
+  text-decoration: none;
+  color: #C4BAA6;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #C4BAA6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+color: #C4BAA6;
+}
+
+.Text {
+    text-align: center;
+}
+
+.Text h2{
+    color: #C4BAA6;
+}
+
+.Text h3{
+    color: #C4BAA6;
+}
+.Text p{
+    padding: 50px;
+    text-align: center;
+    color: #C4BAA6;
+}

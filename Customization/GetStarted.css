@@ -1,1 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Avantgarde;
+}
 
+body {
+  display: flex;
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1B201E;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

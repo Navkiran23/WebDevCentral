@@ -1,1 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Avantgarde;
+}
+
+body {
+  display: flex;
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1B201E;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+  background: #AA9976;
+  padding: 20px;
+}
+ul li {
+  background: #C4BAA6;
+  color: #1B201E;
+  padding: 5px;
+  margin-left: 35px;
+}
 

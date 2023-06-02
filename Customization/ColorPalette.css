@@ -1,1 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Avantgarde;
+}
 
+body {
+  display: flex;
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1B201E;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.LogoImage {
+      position: fixed;
+      top: 50px;
+      left: 0px;
+}
+.LogoImage img {
+    height: 300px;
+}
+.LogoImage h1 {
+    color: #C4BAA6;
+    font-size:15px;
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+a:link {
+  text-decoration: none;
+  color: #C4BAA6;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #C4BAA6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.ResetButton {
+    display: flex;
+    background: none;
+    color: white;
+    padding: 20px 60px;
+    font-size: 15px;
+    width: 200px;
+    margin: 20px auto;
+    outline: none;
+    margin-top: 100px;
+    border: 2px solid #C4BAA6;
+    cursor: pointer;
+    text-align: center;
+}
+.ButtonFormatting {
+      position: fixed;
+      top: 50px;
+      right: 0px;
+      margin: 20px auto;
+     padding: 20px 60px;
+}
+.LinkButton {
+    display: flex;
+    background: white;
+    color: #1B201E;
+    padding: 20px 60px;
+    font-size: 15px;
+    width: 200px;
+    margin: 20px auto;
+    outline: none;
+    border: 2px solid #C4BAA6;
+    cursor: pointer;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.ColorContainer{
+    margin: 0 auto;
+    z-index: 20;
+}
+
+.RColor{
+    overflow: hidden;
+    margin: 20px;
+    background-color: white;
+}
+
+.ColorBox{
+    width: 600px;
+    height: 100px;
+}
+
+.colorRGB{
+    display: flex;
+    align-items: center;
+    color: #C4BAA6;
+}
+
+.RColor{
+    display: grid;
+}
